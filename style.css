@@ -10,7 +10,7 @@ h1 {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   color: hsl(0, 100%, 0%);
-  padding: 5px 8px 0; /* top - left/right - bottom -- do this correctly again!! */
+  padding: 5em 8em 0; /* top - left/right - bottom -- do this correctly again!! */
 }
 
 p {
@@ -18,20 +18,23 @@ p {
   font-size: 15px;
   font-weight: 400;
   color: hsl(212, 45%, 89%);
-  padding: 2px 8px 10px; /* top - left/right - bottom -- do this correctly again!! */
+  padding: 2em 8em 10em; /* top - left/right - bottom -- do this correctly again!! */
 }
 
 .white-container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 25px;
+  margin: 20em 8em; /* top/bottom - left/right -- do this correctly again!! */
 }
 
 .blue-container {
   background-color: hsl(218, 44%, 22%);
   border-radius: 20px;
+  margin: 4em; /* do this correctly again!! */
 }
 
 .qr-code {
-
+  
+  margin: 18em; /* do this correctly again!! */
 }
 
