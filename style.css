@@ -17,23 +17,26 @@ p {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
   padding: 2em 8em 10em; /* top - left/right - bottom -- do this correctly again!! */
 }
 
 .white-container {
+  display: flex;
   background-color: hsl(0, 0%, 100%);
   border-radius: 25px;
   margin: 20em 8em; /* top/bottom - left/right -- do this correctly again!! */
 }
 
 .blue-container {
+  display: flex;
   background-color: hsl(218, 44%, 22%);
   border-radius: 20px;
   margin: 4em; /* do this correctly again!! */
 }
 
 .qr-code {
+  display: grid;
   
   margin: 18em; /* do this correctly again!! */
 }
