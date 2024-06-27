@@ -27,24 +27,6 @@ body {
     min-width: 30rem;
 }
 
-.white-container h1 {
-  width: 85%;
-  font-weight: 700;
-  color: var(--dark-blue);
-  margin-bottom: 1.5rem;
-
-  padding: 5em 8em 0; /* top - left/right - bottom -- do this correctly again!! */
-}
-
-.white-container p {
-  width: 85%;
-  font-weight: 400;
-  color: var(--grayish-blue);    
-  margin-bottom: 1.5rem;
-  
-  padding: 2em 8em 10em; /* top - left/right - bottom -- do this correctly again!! */
-}
-
 .white-container {
   display: flex;
   flex-direction: column;
@@ -64,6 +46,22 @@ body {
     object-fit: cover;
     border-radius: 0.9rem;
     margin-bottom: 2rem;
+}
+
+.white-container h1 {
+  width: 85%;
+  font-weight: 700;
+  color: var(--dark-blue);
+  margin-bottom: 1.5rem;
+  /* padding: 5em 8em 0; top - left/right - bottom -- do this correctly again!! */
+}
+
+.white-container p {
+  width: 85%;
+  font-weight: 400;
+  color: var(--grayish-blue);    
+  margin-bottom: 1.5rem;
+  /* padding: 2em 8em 10em; top - left/right - bottom -- do this correctly again!! */
 }
 
 footer {
