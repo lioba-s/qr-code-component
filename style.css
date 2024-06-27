@@ -41,14 +41,14 @@ main {
   /* margin?! */
 }
 
-.white-container img {
+img {
     width: 100%;
     object-fit: cover;
     border-radius: 0.9rem;
     margin-bottom: 2rem;
 }
 
-.white-container h1 {
+h1 {
   width: 85%;
   font-weight: 700;
   color: var(--dark-blue);
@@ -56,7 +56,7 @@ main {
   /* padding: 5em 8em 0; top - left/right - bottom -- do this correctly again!! */
 }
 
-.white-container p {
+p {
   width: 85%;
   font-weight: 400;
   color: var(--grayish-blue);    
