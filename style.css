@@ -4,16 +4,20 @@
 
 :root {
     --white: hsl(0, 0%, 100%);
-    --black: hsl(0, 100%, 0%);
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
 
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: content-box;
+}
+
 body {
     height: 100vh;
     width: 100%;
-    font-size: 1.5rem;
     font-family: "Outfit", sans-serif;
     background-color: var(--light-gray);
     display: flex;
@@ -23,25 +27,36 @@ body {
     min-width: 30rem;
 }
 
-h1 {
+.white-container h1 {
+  width: 85%;
   font-weight: 700;
-  color: var(--black);
+  color: var(--dark-blue);
+  margin-bottom: 1.5rem;
+
   padding: 5em 8em 0; /* top - left/right - bottom -- do this correctly again!! */
 }
 
-p {
-  font-family: "Outfit", sans-serif;
-  font-size: 15px;
+.white-container p {
+  width: 85%;
   font-weight: 400;
-  color: var(--grayish-blue);
+  color: var(--grayish-blue);    
+  margin-bottom: 1.5rem;
+  
   padding: 2em 8em 10em; /* top - left/right - bottom -- do this correctly again!! */
 }
 
 .white-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: var(--white);
-  border-radius: 25px;
-  margin: 20em 8em; /* top/bottom - left/right -- do this correctly again!! */
+  border-radius: 1.5rem;
+  width: calc(100% / 5);
+  box-shadow: 0 5px 10px 0 var(--grayish-blue);
+  padding: 1.5rem;
+  /* margin?! */
 }
 
 .white-container img {
