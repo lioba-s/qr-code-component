@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 </style>
 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 100%, 0%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
 body {
     height: 100vh;
     width: 100%;
@@ -17,7 +25,7 @@ body {
 
 h1 {
   font-weight: 700;
-  color: hsl(0, 100%, 0%);
+  color: var(--black);
   padding: 5em 8em 0; /* top - left/right - bottom -- do this correctly again!! */
 }
 
@@ -25,30 +33,23 @@ p {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: hsl(220, 15%, 55%);
+  color: var(--grayish-blue);
   padding: 2em 8em 10em; /* top - left/right - bottom -- do this correctly again!! */
 }
 
 .white-container {
   display: flex;
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   border-radius: 25px;
   margin: 20em 8em; /* top/bottom - left/right -- do this correctly again!! */
 }
 
-.blue-container {
-  display: flex;
-  background-color: hsl(218, 44%, 22%);
-  border-radius: 20px;
-  margin: 4em; /* do this correctly again!! */
+.white-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.9rem;
+    margin-bottom: 2rem;
 }
-
-.qr-code {
-  display: grid;
-  
-  margin: 18em; /* do this correctly again!! */
-}
-
 
 
 
