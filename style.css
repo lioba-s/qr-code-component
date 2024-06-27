@@ -6,7 +6,7 @@ body {
     height: 100vh;
     width: 100%;
     font-size: 1.5rem;
-    font-family: Outfit, sans-serif;
+    font-family: "Outfit", sans-serif;
     background-color: var(--light-gray);
     display: flex;
     flex-direction: column;
@@ -16,7 +16,6 @@ body {
 }
 
 h1 {
-  font-family: "Outfit", sans-serif;
   font-weight: 700;
   color: hsl(0, 100%, 0%);
   padding: 5em 8em 0; /* top - left/right - bottom -- do this correctly again!! */
