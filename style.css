@@ -27,7 +27,7 @@ body {
     min-width: 30rem;
 }
 
-.white-container {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
