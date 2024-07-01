@@ -64,6 +64,15 @@ p {
   /* padding: 2em 8em 10em; top - left/right - bottom -- do this correctly again!! */
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
 footer {
     position: absolute;
     text-align: center;
