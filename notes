@@ -19,7 +19,7 @@ Questions during executing the project
       Using px instead of rem might make the text too small to read for many users, as their chosen font settings will not be considered this way.
 
 What to use for following projects:
-  1. Make use of the option to comment out code and leave notes this way even more often - so helpful to mark lines/segments to come back to.
+  1. Make use of the option to comment out code and leave notes during development even more often - so helpful to mark lines/segments to come back to.
   2. For the style guide, use these guiding questions:
     2.1 Accurate? - compare to desired/original design
     2.2 Responsive? - check different screen sizes
@@ -28,4 +28,4 @@ What to use for following projects:
       2.3.2 Use clear structure, check if possibility to navigate everything with keyboard
       2.3.3 Consider design choices, e.g. high contrast, using rem instead of px for font-size
       2.3.4 Esp. for mobile: elements must be arranged in a way that makes them easy to tap (concerning centering + margins etc.)
-  3. 
+  3. Adding a modern css reset to the stylesheet is a necessity that I hadn't been aware of before. I have seen this one to be commonly referred to and will use it for future projects also: https://www.joshwcomeau.com/css/custom-css-reset/
