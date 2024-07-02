@@ -18,9 +18,12 @@
   border: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     min-height: 100vh;
-    width: 100%;
     position: relative;
     font-family: "Outfit", sans-serif;
     background-color: var(--light-gray);
