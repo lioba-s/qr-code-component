@@ -22,7 +22,7 @@ body {
     font-family: "Outfit", sans-serif;
     background-color: var(--light-gray);
     display: flex;
-    flex: auto;
+    flex: initial;
     flex-direction: column;
     justify-content: center;
     align-items: center;
