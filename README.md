@@ -43,7 +43,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
  1. Training my eye to identify design choices, like colour differences and spacing, more clearly. I value this as a helpful base-line understanding, although I imagine it would be much easier to use more accurate
       specifications from a Figma file (I chose not to get Frontend Mentor's PRO membership for now). For this particular project, I went with the advice given on the Discord forum that testing out my guesses on the
       sizes here might get me close enough to the original.
-  2.
+  2. What is the difference between the different CSS units?
+      I used this article as a starting point where all commonly used units are contrasted: https://medium.com/level-up-web/the-difference-between-css-units-px-pt-rem-em-vh-vw-ch-ex-and-the-rest-b2cfdf069230
+      For this project particularly, sizes were provided in px in the design file. I now know they should always be converted to rem before using them in code.
+      This way, they will scale according to the user's chosen design size. This way, issues of possible overlap can be avoided and, even more importantly, accessibility issues:
+      Using px instead of rem might make the text too small to read for many users, as their chosen font settings will not be considered this way.
+  3. How do I make the footer stay in place and avoid overlapping text on the page?
+      I referenced this guide to answer this question: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+  4. Which heights and widths do I need to set for which element exactly?
+      Specifically, I was confused with the differences between setting the height/width for the html and for the body. I found answers here: https://www.freecodecamp.org/news/html-page-width-height/
+     
 
 
 ### Questions during executing the project
