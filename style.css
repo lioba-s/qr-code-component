@@ -9,10 +9,13 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
+*, *::before, *::after {
+  box-sizing: border-box; /*content-box?*/
+}
+
 * {
-    margin: 0;
-    border: 0;
-    box-sizing: content-box;
+  margin: 0;
+  border: 0;
 }
 
 body {
@@ -26,6 +29,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1.5; /* making line-height more accessible */
+    -webkit-font-smoothing: antialiased; /* improving text-rendering */
 }
 
 .card {
@@ -45,6 +50,7 @@ body {
 
 img {
     width: 100%;
+    display: block;
     object-fit: cover;
     border-radius: 0.9rem;
     margin-bottom: 2rem;
@@ -55,6 +61,7 @@ h1 {
   font-weight: 700;
   font-size: 1rem;
   color: var(--dark-blue);
+  overflow-wrap: break-word;
   margin-bottom: 1.5rem;
   /* padding: 5em 8em 0; top - left/right - bottom -- do this correctly again!! */
 }
@@ -64,6 +71,7 @@ p {
   font-weight: 400;
   font-size: 0.9rem;
   color: var(--grayish-blue);    
+  overflow-wrap: break-word;
   margin-bottom: 1.5rem;
   /* padding: 2em 8em 10em; top - left/right - bottom -- do this correctly again!! */
 }
