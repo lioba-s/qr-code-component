@@ -50,7 +50,7 @@ body {
   text-align: center;
   background-color: var(--white);
   height: calc(100% / 2.5);
-  max-width: 30rem;
+  max-width: 10rem;
   border-radius: 1.5rem;
   box-shadow: 0 5px 10px 0 var(--grayish-blue);
   padding: 1.5rem;
