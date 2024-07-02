@@ -52,6 +52,7 @@ img {
 h1 {
   width: 85%;
   font-weight: 700;
+  font-size: 1.6rem;
   color: var(--dark-blue);
   margin-bottom: 1.5rem;
   /* padding: 5em 8em 0; top - left/right - bottom -- do this correctly again!! */
@@ -60,6 +61,7 @@ h1 {
 p {
   width: 85%;
   font-weight: 400;
+  font-size: 1.3rem;
   color: var(--grayish-blue);    
   margin-bottom: 1.5rem;
   /* padding: 2em 8em 10em; top - left/right - bottom -- do this correctly again!! */
