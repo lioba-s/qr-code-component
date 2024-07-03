@@ -48,7 +48,7 @@ body {
   align-items: center;
   text-align: center;
   background-color: var(--white);
-  height: calc(100% / 2.5);
+  height: 70%;
   max-width: 10rem;
   border-radius: 1.5rem;
   box-shadow: 0 5px 10px 0 var(--grayish-blue);
@@ -65,7 +65,7 @@ img {
 }
 
 h1 {
-  width: 85%;
+  width: 90%;
   font-weight: 700;
   font-size: 1.8rem;
   color: var(--dark-blue);
@@ -75,7 +75,7 @@ h1 {
 }
 
 p {
-  width: 85%;
+  width: 90%;
   font-weight: 400;
   font-size: 1.4rem;
   color: var(--grayish-blue);    
