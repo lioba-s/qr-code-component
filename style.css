@@ -36,12 +36,14 @@ body {
 }
 
 .grey-area {
+    z-index: 0;
     height: 100%;
     width: 100%;
     background-color: var(--light-gray);
 }
 
 .card {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
