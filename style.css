@@ -62,7 +62,6 @@ h1 {
   color: var(--dark-blue);
   overflow-wrap: break-word;
   margin-bottom: 1rem;
-  /* padding: 5em 8em 0; top - left/right - bottom -- do this correctly again!! */
 }
 
 p {
@@ -72,7 +71,6 @@ p {
   color: var(--grayish-blue);    
   overflow-wrap: break-word;
   margin-bottom: 1.5rem;
-  /* padding: 2em 8em 10em; top - left/right - bottom -- do this correctly again!! */
 }
 
 #content-wrap {
@@ -87,10 +85,3 @@ footer {
     height: 2.5rem;
     bottom: 0;
 }
-
-
-/* To check:
-Accurate? - compare to original design files
-Responsive? - check different screen sizes
-Accessible? - go through checklists
-*/
