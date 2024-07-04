@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/lioba-s/qr-code-component/tree/main](https://github.com/lioba-s/qr-code-component/tree/main)
-- Live Site URL: [https://lioba-s.github.io/qr-code-component/](https://lioba-s.github.io/qr-code-component/)
+- Solution URL: [link](https://github.com/lioba-s/qr-code-component/tree/main)
+- Live Site URL: [link](https://lioba-s.github.io/qr-code-component/)
 
 
 ## My process
