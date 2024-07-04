@@ -51,9 +51,9 @@ Here are some things I'll want to use for future projects.
 
 1. Making use of the option to comment out code and leave notes during development even more often - so helpful to mark lines/segments to come back to.
 2. For the style guide, use these guiding questions:
-  2.1 Accurate? - compare to desired/original design 
-  2.2 Responsive? - check different screen sizes 
-  2.3 Accessible? 
+   Accurate? - compare to desired/original design 
+   Responsive? - check different screen sizes 
+   Accessible? 
     - Use alt for images 
     - Use clear structure, check if possibility to navigate everything with keyboard 
     - Consider design choices, e.g. high contrast, using rem instead of px for font-size 
