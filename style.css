@@ -26,6 +26,7 @@ body {
     min-height: 100vh;
     position: relative;
     font-family: "Outfit", sans-serif;
+    background-color: var(--light-gray);
     display: flex;
     flex: initial;
     flex-direction: column;
@@ -33,12 +34,6 @@ body {
     align-items: center;
     line-height: 1.5; /* making line-height more accessible */
     -webkit-font-smoothing: antialiased; /* improving text-rendering */
-}
-
-.grey-area {
-    height: 100%;
-    width: 100%;
-    background-color: var(--light-gray);
 }
 
 .card {
