@@ -42,7 +42,7 @@ body {
   height: 70%;
   max-width: 20rem;
   border-radius: 1.5rem;
-  box-shadow: 0 5px 10px 0 var(--grayish-blue);
+  box-shadow: 0 3px 7px 0 var(--grayish-blue);
   padding: 1.5rem;
   margin: 1.5rem;
 }
