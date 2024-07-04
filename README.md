@@ -54,11 +54,11 @@ Here are some things I'll want to use for future projects.
   2.1 Accurate? - compare to desired/original design 
   2.2 Responsive? - check different screen sizes 
   2.3 Accessible? 
-    2.3.1 Use alt for images 
-    2.3.2 Use clear structure, check if possibility to navigate everything with keyboard 
-    2.3.3 Consider design choices, e.g. high contrast, using rem instead of px for font-size 
-    2.3.4 Esp. for mobile: elements must be arranged in a way that makes them easy to tap (concerning centering + margins etc.)
-    2.3.5 This is a huge topic and I'm actively collecting more points along the way!
+    - Use alt for images 
+    - Use clear structure, check if possibility to navigate everything with keyboard 
+    - Consider design choices, e.g. high contrast, using rem instead of px for font-size 
+    - Esp. for mobile: elements must be arranged in a way that makes them easy to tap (concerning centering + margins etc.)
+    - This is a huge topic and I'm actively collecting more points along the way!
 3. Adding a modern css reset to the stylesheet is a necessity that I hadn't been aware of before. I have seen this one to be commonly referred to and will use it for future projects also: https://www.joshwcomeau.com/css/custom-css-reset/
 
 
