@@ -43,6 +43,7 @@ body {
   box-shadow: 0 3px 7px 0 var(--grayish-blue);
   padding: 1.5rem;
   margin: 1.5rem;
+  row-gap: 1.2rem;
 }
 
 img {
@@ -50,7 +51,7 @@ img {
     display: block;
     object-fit: cover;
     border-radius: 0.9rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.3rem;
 }
 
 h1 {
@@ -59,7 +60,6 @@ h1 {
   font-size: 1.2rem;
   color: var(--dark-blue);
   overflow-wrap: break-word;
-  margin-bottom: 1rem;
 }
 
 p {
@@ -68,7 +68,7 @@ p {
   font-size: 0.938rem;
   color: var(--grayish-blue);    
   overflow-wrap: break-word;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
 #content-wrap {
