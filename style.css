@@ -55,7 +55,7 @@ img {
 }
 
 h1 {
-  width: 80%;
+  width: 85%;
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--dark-blue);
@@ -63,7 +63,7 @@ h1 {
 }
 
 p {
-  width: 80%;
+  width: 85%;
   font-weight: 400;
   font-size: 0.938rem;
   color: var(--grayish-blue);    
