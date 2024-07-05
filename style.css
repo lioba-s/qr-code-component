@@ -37,7 +37,7 @@ body {
   align-items: center;
   text-align: center;
   background-color: var(--white);
-  height: 70%;
+  height: 80%;
   max-width: 20rem;
   border-radius: 1.5rem;
   box-shadow: 0 3px 7px 0 var(--grayish-blue);
